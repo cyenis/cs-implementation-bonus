@@ -42,7 +42,7 @@ function calculateBonus() {
     // }
 
     if (importations >= 10 && money >= 500) {
-        bonus = ((importations - 10) * 10) + ((money - 500) * 0.2);
+        bonus = ((importations - 10) * 10) + ((money - 500) * 0.15);
     }
 
     // Determine GIF based on bonus amount
